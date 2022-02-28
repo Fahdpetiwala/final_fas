@@ -91,11 +91,11 @@ const NavLink = styled(Link)`
       transition: all 0.3s ease;
     }
   } */
-`;user
+`;
 
 const Navbar = () => {
   const quantity = useSelector(state=>state.cart.quantity)
-  const user = useSelector((state) => state.);
+  const user = useSelector((state) => state.user);
   const dispatch=useDispatch();
 console.log(user.currentUser)
 const logout =()=>{
